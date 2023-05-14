@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    android:clickable="false"
+    tools:context=".SecondActivity"><![CDATA[>]]>
+
+    <ImageView
+        android:id="@+id/heart1"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:elevation="17dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/red_heart_icon" />
+
+    <ImageView
+        android:id="@+id/heart2"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:elevation="17dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/red_heart_icon" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/start_button"
+        android:text="Check"
+        android:textSize="28sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.840"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.950"
+        app:strokeColor="@color/design_default_color_secondary"
+        app:strokeWidth="2.5dp" />
+
+    <ImageView
+        android:id="@+id/clue"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:clickable="true"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/clue" />
+
+    <ImageView
+        android:id="@+id/heart3"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:elevation="17dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/red_heart_icon" />
+
+    <TableLayout
+        android:id="@+id/tile_grid"
+        android:layout_width="371dp"
+        android:layout_height="392dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.70">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tile0"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tile4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile5"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile6"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile7"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tile8"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile9"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile10"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile11"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tile12"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile13"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile14"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/tile15"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="9dp"
+
+
+                android:background="@drawable/letter_tile"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.244"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="57dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="284dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/start_button"
+        android:text="Reset"
+        android:textSize="28sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.950"
+        app:strokeColor="@color/design_default_color_secondary"
+        app:strokeWidth="2.5dp" />
+
+    <TextView
+        android:id="@+id/guessed_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guessed_word_tile"
+        android:elevation="15dp"
+        android:letterSpacing=".25"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

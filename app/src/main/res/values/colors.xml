@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_border">#EFEF10</color>
+    <color name="start_button">#470CAE</color>
+    <color name="tile_colour">#56FFFFFF</color>
+    <color name="guessed_tile_color">#3E000000</color>
+    <color name="guessed_tile_stroke">#9A5C21A5</color>
+    <color name="clue_card">#3BF3FD</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="high_score_button">#251770</color>
+</resources>

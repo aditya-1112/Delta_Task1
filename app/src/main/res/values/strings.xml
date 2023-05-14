@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="hello_from_android">Hello from Android!</string>
+    <string name="your_score">Your Score: %d</string>
+    <string name="high_score">Best Score: %d</string>
+    <string name="new_high_score">New High Score: %d</string>
+</resources>
